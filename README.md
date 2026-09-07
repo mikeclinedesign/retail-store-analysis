@@ -4,11 +4,14 @@
 
 This project analyzes more than 4,000 financial records from a multi-store retail business to evaluate store and department performance, identify sales trends, and forecast future performance.
 
-The project was completed across multiple tools to demonstrate an end-to-end data analytics workflow:
+Using approximately 2.5 years of historical data, I developed a 12-month sales forecast incorporating a 2.5% inflation assumption and built a KPI dashboard designed for management to monitor performance against projected targets. The dashboard allows managers to quickly evaluate whether individual stores are performing above or below forecast and identify areas requiring further investigation.
 
-- **Excel** — Data cleaning, validation, pivot-table analysis, visualization, and forecasting
-- **PostgreSQL** — Data querying, aggregation, KPI calculation, and performance analysis
-- **Tableau** — Interactive dashboard and visualization *(in progress)*
+The project follows an end-to-end analytics workflow across multiple tools:
+
+- **Excel** — Cleaned and validated the source data, performed exploratory analysis, developed the 12-month forecast, and built a management KPI dashboard comparing actual performance against projections.
+- **PostgreSQL** — Queried the cleaned dataset to analyze store and department performance, quarter-over-quarter growth, gross margins, and labor costs.
+- **Tableau** — Developed interactive visualizations to communicate store, department, and financial performance.
+- **GitHub** — Documented the analysis, methodology, code, findings, and final deliverables in a portfolio case study.
 
 ---
 
@@ -67,22 +70,25 @@ The final PostgreSQL table contained **4,241 records**.
 
 ---
 
-## Excel Analysis
+## Excel Analysis & KPI Dashboard
 
-Excel was used for exploratory analysis and financial forecasting.
+Excel was used for data preparation, exploratory analysis, forecasting, and management reporting.
 
 The analysis included:
 
 - Store-level performance comparisons
-- Quarterly sales trends
-- Category-level analysis
-- Department-level analysis
-- Pivot tables and charts
+- Quarterly sales trend analysis
+- Category and department-level analysis
+- Pivot tables and visualizations
 - Historical trend analysis
-- 12-month forecasting
-- A 2.5% inflation assumption for forward-looking projections
+- 12-month sales forecasting
+- A 2.5% inflation assumption applied to forward-looking projections
 
-The completed Excel workbook is available in the [`excel`](./excel/) folder.
+A management KPI dashboard was built to translate the analysis into an operational reporting tool. The dashboard allows managers to compare actual store performance against projected targets and quickly determine whether performance is above or below expectations.
+
+This provides management with a repeatable way to monitor forecast accuracy, identify performance gaps, and investigate stores or departments that deviate materially from projected results.
+
+The completed Excel analysis and KPI dashboard are available in the [`excel`](./excel/) folder.
 
 ---
 
