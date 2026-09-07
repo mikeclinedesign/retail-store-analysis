@@ -13,6 +13,11 @@ The project follows an end-to-end analytics workflow across multiple tools:
 - **Tableau** — Developed interactive visualizations to communicate store, department, and financial performance.
 - **GitHub** — Documented the analysis, methodology, code, findings, and final deliverables in a portfolio case study.
 
+## KPI Dashboard
+
+![Retail Store KPI Dashboard](./images/kpi_dashboard.png)
+
+The management KPI dashboard compares actual store performance against 12-month projections, allowing managers to quickly identify whether stores are performing above or below forecast and investigate significant performance gaps.
 ---
 
 ## Business Questions
