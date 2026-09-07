@@ -173,7 +173,9 @@ This provides management with a baseline for evaluating expected sales and plann
 - KPI calculations
 
 **Tableau**
-- Interactive dashboard development *(in progress)*
+## Interactive Tableau Dashboard
+
+[View the Interactive Dashboard on Tableau Public] (https://public.tableau.com/views/RetailStoreAnalysis_17887282950250/RetailStoreAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
